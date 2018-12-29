@@ -223,7 +223,7 @@ Voorbeeld 2
 Bij opgave `Delers <https://dodona.ugent.be/nl/exercises/1581119193/>`_ moeten
 voor een gegeven getal alle delers uitgeschreven worden. Opnieuw kan hier
 gebruik gemaakt worden van ``block count: multi``. Deze keer wordt de verwachte
-uitvoer beëindigd door een lege regel (``ouptut block size: ends with``).
+uitvoer beëindigd door een lege regel (``output block size: ends with``).
 
 Input bestand (``0.in``)::
 
@@ -338,7 +338,7 @@ veranderd worden. Zie het volgende voorbeeld:
      They don't even appear in the feedback.
    ZeroDivisionError: division by zero
 
-Er bestaat één speciale optie vlag die gebruikt wordt wanner de representatie
+Er bestaat één speciale optie vlag die gebruikt wordt wanneer de representatie
 van een zelf-gedefinieerd object gebruikt wordt. Dit is enkel het geval wanneer
 deze representatie werd overschreven. Wanneer de vlag geactiveerd wordt zal de
 (representatie van het object) van de returnwaarde vergeleken worden met de
@@ -418,7 +418,7 @@ om hun werking en parameters uit te leggen. In het algemeen:
 
 ``FileContentChecker``
   Kijkt of een bestand met een gegeven naam bestaat op het lokale file system en
-  of de inhoud correspondeert et dat van een ander bestand. Dit tweede bestand
+  of de inhoud correspondeert met dat van een ander bestand. Dit tweede bestand
   kan zich in het lokale file system bevinden of de inhoud kan van het block
   gehaald worden (waarbij deze laatste optie voorrang heeft).
 
@@ -427,7 +427,7 @@ om hun werking en parameters uit te leggen. In het algemeen:
      worden.
 
 ``ImageRenderer``
-  Deze output processr rendert 2-dimensionale matrices als gekleurde
+  Deze output processor rendert 2-dimensionale matrices als gekleurde
   afbeeldingen. Als de output correct is zal de matrix getoond worden in de
   feedbacktabel.
 
@@ -599,7 +599,7 @@ moet echter wel gedetecteerd worden. De gededecteerde taal is de taal met de
 meeste woorden in de globale scope als er een met meer dan 0. Als er geen
 woorden gevonden worden wordt er geen vertaling of selectie uitgevoerd.
 
-Selectie is het proces dat er rekening mee houd dat niet alles met korte zinnetjes vertaald kan worden. Of soms wil je sommige dingen enkel uitvoeren voor gebruikers van een bepaalde taal. Het volgende voorbeeld brengt meer duidelijkheid:
+Selectie is het proces dat er rekening mee houdt dat niet alles met korte zinnetjes vertaald kan worden. Of soms wil je sommige dingen enkel uitvoeren voor gebruikers van een bepaalde taal. Het volgende voorbeeld brengt meer duidelijkheid:
 
 .. code-block:: python
 
@@ -693,8 +693,8 @@ van het bestand.
      This is the content of text.txt.
 
 Om het gebruik van de Python Tutor toe te laten voor oefeningen met bestanden
-moet een ``FILE`` tag gebruikt worden. Als het geen ingebed bestand is moet 
-er ook een (geldig) ``href`` attribuut aanwezig zijn. In dit laatste geval zal 
+moet een ``FILE`` tag gebruikt worden. Als het geen ingebed bestand is moet
+er ook een (geldig) ``href`` attribuut aanwezig zijn. In dit laatste geval zal
 de Python Tutor ook enkel werken als de oefening publiek is.
 
 .. _execution_contexts:
